@@ -3,14 +3,14 @@
     height: 30px;
     cursor: pointer;
     position: absolute;
-    top: 465px;
+    top: 515px;
     left: 37%;
 }
 
 #gameover {
     position: absolute;
     width: 409px;
-    height: 509px;
+    height: 563px;
     background: rgba(0, 0, 0, 0.5);
     display: none;
 
@@ -68,4 +68,5 @@
 #cosa {
 
     width: 29%;
+    margin-top: 4%;
 }
