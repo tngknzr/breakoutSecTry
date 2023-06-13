@@ -5,24 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aberration</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Break Stuff</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-    <div class="sound">
-        <img id="sound" src="img/SOUND_ON.png" alt="sound on">
+
+    <div class="container">
+        <div class="content">
+            <div class="square twitch" style="margin-bottom: 50px;">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+                <div class="circle">
+                    <h2 class="DrugRadar"> Break Stuff
+
+                    </h2>
+                    <p>
+                    <H3>Instructions</H3>
+                    Use Arrow Left and Arrow Rigth to move user.
+                    </p>
+                </div>
+            </div>
+
+            <a href="gamepage.html" class="button" target="_parent">
+                <span class="actual-text">&nbsp;LetsPlay!&nbsp;</span>
+                <span class="hover-text" aria-hidden="true">&nbsp;LetsPlay!&nbsp;</span>
+            </a>
+        </div>
     </div>
 
-    <div id="gameover">
-        <img id="youwin" src="img/youwon.png" alt="youwon">
-        <img id="youlose" src="img/gameover.png" alt="youlose">
-        <div id="restart">Play Again!</div>
-    </div>
-
-    <canvas id="breakout" width="400" height="500"></canvas>
-    <script src="components.js"></script>
-    <script src="game.js"></script>
 </body>
 
 </html>
