@@ -1,7 +1,7 @@
 // img loading
 
 const bg_img = new Image();
-bg_img.src = "img/bg.jpg";
+bg_img.src = "img/stalker.jpg";
 
 const level_img = new Image();
 level_img.src = "img/level.png";
